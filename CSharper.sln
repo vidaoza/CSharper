@@ -3,9 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88C21B3E-4E15-42EE-B250-018216C96A9F}"
+	ProjectSection(SolutionItems) = preProject
+		Requirements.txt = Requirements.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{EEDF277A-0DCC-4B75-9139-8F62A60957EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E4191079-3F49-4BA4-BCFF-5D77D99B358C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "ACM.BLTest\ACM.BLTest.csproj", "{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDF277A-0DCC-4B75-9139-8F62A60957EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDF277A-0DCC-4B75-9139-8F62A60957EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDF277A-0DCC-4B75-9139-8F62A60957EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDF277A-0DCC-4B75-9139-8F62A60957EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFE1E311-DE01-4346-BCAA-A2C7DEA06D7F} = {E4191079-3F49-4BA4-BCFF-5D77D99B358C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E9534FB-AC28-4705-99E8-25C91912A8F0}

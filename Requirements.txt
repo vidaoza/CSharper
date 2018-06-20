@@ -1,0 +1,25 @@
+Customer
+	Name (FirstName, LastName)
+	EmailAddress
+	Home Address
+	Work Address
+Product
+	ProductName
+	Description
+	CurrentPrice
+Order
+	Customer
+	OrderDate
+	Shipping Address
+OrderItem
+	Order
+	Product
+	Quantity
+	PurchasePrice
+
+
+
+Methods
+	Validate()
+	Remove()
+	Save()
