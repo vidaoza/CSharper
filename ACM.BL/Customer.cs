@@ -8,14 +8,31 @@ namespace ACM.BL
 {
     public class Customer
     {
+        #region Constructor
+
+        public Customer(){}
+
+        public Customer(int customerId)
+        {
+            CustomerId = customerId;
+        }
+      
+        #endregion
+
         #region Properties
 
         public int CustomerId { get; private set; }
+
         public string FirstName { get; set; }
+
         public string LastName { get; set; }
+
         public string EmailAddress { get; set; }
+
         public string HomeAddress { get; set; }
+
         public string BusinessAddress { get; set; }
+
         public string FullName
         {
             get
@@ -35,9 +52,25 @@ namespace ACM.BL
         }
 
         public static int InstanceCount { get; set; }
+
         #endregion
 
         #region Methods
+
+        public Customer Retrieve(int customerId)
+        {
+            return new Customer();
+        }
+
+        public List<Customer> Retrieve()
+        {
+            return new List<Customer>();
+        }
+
+        public bool Save()
+        {
+            return true;
+        }
 
         public bool Validate()
         {

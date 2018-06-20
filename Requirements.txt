@@ -1,21 +1,21 @@
 Customer
-	Name (FirstName, LastName)
-	EmailAddress
-	Home Address
-	Work Address
+	- Name (FirstName, LastName)
+	- EmailAddress
+	- Home Address
+	- Work Address
 Product
 	ProductName
 	Description
 	CurrentPrice
 Order
-	Customer
-	OrderDate
-	Shipping Address
-OrderItem
-	Order
-	Product
-	Quantity
-	PurchasePrice
+	-- Customer
+	-- OrderDate
+	-- Shipping Address
+- OrderItem
+	- Order
+	- Product
+	- Quantity
+	- PurchasePrice
 
 
 
